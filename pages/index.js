@@ -65,7 +65,7 @@ export default function Home() {
         </h1>
         <p className={styles.description}>
           <a>Bearer Token</a><br></br>
-          {/* <div className ={styles.smalltext}>이미지의 주체가 되는 요소를 명사와 목적어 위주로 작성해주세요</div> */}
+          {/* <div className ={styles.smalltext}>토큰을 입력해주세요 없어질예정</div> */}
           <input         
             id="token"
             type="text"
@@ -76,6 +76,7 @@ export default function Home() {
           />
           <br></br>
           <a>Prompt</a>
+          {/* <div className ={styles.smalltext}>이미지의 주체가 되는 요소를 명사와 목적어 위주로 작성해주세요</div> */}
           <br></br>
           <input
             id="prompt"
@@ -87,6 +88,7 @@ export default function Home() {
           />
           <br></br>
           <a>Style</a>
+          {/* <div className ={styles.smalltext}>스타일을 선택하거나 원하시는 스타일을 입력해주세요</div> */}
           <br></br>
           <input
             id="Style"
@@ -98,6 +100,7 @@ export default function Home() {
           />
           <br></br>
           <a>Image count</a>
+          {/* <div className ={styles.smalltext}>생성할 이미지 개수를 지정해주세요</div> */}
           <br></br>
           <input
             id="number"
@@ -107,10 +110,22 @@ export default function Home() {
             placeholder="Number of images"
             max="10"
           />
+          <a>Image size</a>
+          {/* <div className ={styles.smalltext}>생성할 이미지 개수를 지정해주세요</div> */}
+          <br></br>
+
+          <input
+            id="size"
+            type="size"
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
+            placeholder="Number of images"
+            max="10"
+          />
           </p>
           <br></br>
           {"  "}
-          <button onClick={getImages}>Get {number} Images</button>
+          <button onClick={getImages}> {number}장 생성</button>
           
       <div className={styles.smalltext}>
           Download as:{" "}

@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+
+
 .container {
+  position: relative;
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  width:20%;
+  padding: 1% ;
+  /* display:block; */
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  background-color: rgb(145, 145, 145);
+  height: 80vh;
+  border-radius: 30px;
+  position: relative;
 }
 
 .footer {
@@ -29,7 +37,7 @@
 }
 
 .titleColor {
-  color: cadetblue;
+  color: rgb(13, 97, 24);
 }
 
 .title a {
@@ -44,37 +52,51 @@
 }
 
 .title {
-  margin: 0;
+  font-family:'Montserrat';
+  font-weight:600;
+  margin-bottom : 20%;  
+  margin-top: 10%;;
   line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+  font-size: 25px;
   text-align: center;
 }
 
 .description {
-  margin: 3rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  text-align: left;
+  margin:  2;
+  font-size: 17px;
+  /* width : 400px; */
 }
+
+.smalltext {
+  text-align: left;
+  margin-top:  20%;
+  font-size: 15px;
+  font-weight: 400;
+  color:#ffffff;
+  text-align: center;
+}
+
 
 .code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: 'Montserrat', sans-serif;;
 }
 
 .grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 1200px;
+  padding-left: 25%;  
+  
+  top: 16%; 
+  left: 6%;
+
+  position: absolute;
+  display:flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap:wrap;  
 }
 
 .card {
@@ -84,7 +106,8 @@
   text-decoration: none;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 400px; /* 300px for 3 in a row */
+  max-width: 300px; /* 300px for 3 in a row */
+  
 }
 
 .imgPreview {
@@ -95,20 +118,19 @@
 .imgPreview:hover,
 .imgPreview:focus,
 .imgPreview:active {
-  transform: scale(1.1);
+  transform: scale(1.01);
   cursor: pointer;
-  transition-duration: 1s;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.5px;
 }
 
 .logo {
@@ -130,3 +152,4 @@
   background-color: #fad0e0;
   border-radius: 5px;
 }
+

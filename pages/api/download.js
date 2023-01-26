@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   const url = req.body.url;
   const type = req.body.type;
 
-  const response = await axios.get(url, {
+  const response = await axios.post(url, {
     responseType: "arraybuffer",
   });
 

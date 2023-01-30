@@ -67,7 +67,36 @@
   font-size: 17px;
   /* width : 400px; */
 }
+.help{
+  position:absolute;
+  right:25px;
+  height: 30px;
+  margin-top:-20px; 
+}
 
+.help.img{
+  position:absolute;
+  /* right: 100px; */
+  height: 24px;
+  /*margin-top:0%*/; 
+}
+
+.helptext{
+  visibility:hidden; 
+  width: 250px;
+  background-color: black;
+  position:absolute;
+  font-size:small;
+
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px ;
+  }
+
+  .help:hover .helptext {
+    visibility: visible;
+  }
 .smalltext {
   text-align: left;
   margin-top:  2%;
@@ -75,6 +104,30 @@
   font-weight: 400;
   color:#ffffff;
   text-align: center;
+}
+.selectNom{
+  width:100%;
+  font-size: 17px;
+  padding: 8px;
+  margin: 12px 2px 2px 2px;
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgb(194, 194, 194);
+  box-shadow: 2px 2px 2px 1px rgba(87, 39, 109, 0.2);
+  /*border-bottom: px solid #ccc;*/  
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.selectmini{
+  width:80px;
+  font-size: 12px;  
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgb(194, 194, 194);
+  box-shadow: 2px 2px 2px 1px rgba(87, 39, 109, 0.2);
+  /*border-bottom: px solid #ccc;*/    
+  border-radius: 7px;
+  margin:none;
+  padding:none;
 }
 
 

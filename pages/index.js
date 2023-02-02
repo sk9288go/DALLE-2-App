@@ -65,7 +65,7 @@ export default function Home() {
       </h1>
     
       <div className={styles.description}>
-        {/* <a>Bearer Token</a><br></br>
+        <a>Bearer Token</a><br></br>
         <div className ={styles.help}>
             <img src ="/Vector.png"/>            
               <span className ={styles.helptext}>토큰을 입력해주세요 없어질예정</span>
@@ -77,7 +77,7 @@ export default function Home() {
             onChange={(e) => setToken(e.target.value)}
             placeholder="Bearer Token"
             
-          /> */}
+          />
           <br></br>
           <a>Prompt</a>
           <div className ={styles.help}>

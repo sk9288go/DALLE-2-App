@@ -5,6 +5,7 @@ import { useState } from "react";
 //import Image1 from 'next/image'
 import styles from "../styles/Home.module.css";
 import axios from "axios";
+import Txt2ImgComponent from "../components/request.tsx"
 
 export default function Home() {
   const [token, setToken] = useState("");
@@ -18,7 +19,7 @@ export default function Home() {
 
   function getImages(e) {
     e.preventDefault();
-    if (token != "" && prompt != "") {
+    if (prompt != "") {
       setError(false);
       setLoading(true);
       axios
@@ -53,6 +54,7 @@ export default function Home() {
   }
 
   return (
+
   <div className={styles.container}>
       
     <div style={{background:"transparent"}}>

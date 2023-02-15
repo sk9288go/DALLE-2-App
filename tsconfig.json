@@ -5,7 +5,9 @@
       "dom",
       "dom.iterable",
       "esnext"
+    
     ],
+    "moduleResolution" : "node",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -17,6 +19,7 @@
     //"resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "experimentalDecorators": true,
     "resolveJsonModule": true
     //"resolveJsonModule": true
   },

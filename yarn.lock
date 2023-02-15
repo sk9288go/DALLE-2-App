@@ -840,6 +840,11 @@
   dependencies:
     "esutils" "^2.0.2"
 
+"draggable@^4.2.0":
+  "integrity" "sha512-mu0FSsNY1Sb2q3EuAi3IBI6oVMV8l74y6xxYmloHq2/PJjOJEfpZCLGShzNUQKAF7JMfxA6ejxoGPyw5x6v8Ow=="
+  "resolved" "https://registry.npmjs.org/draggable/-/draggable-4.2.0.tgz"
+  "version" "4.2.0"
+
 "emoji-regex@^9.2.2":
   "integrity" "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz"

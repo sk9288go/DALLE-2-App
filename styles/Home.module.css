@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
 
 .container {
-  /*display:grid;*/
-  /*position: flex;*/
   flex-wrap:wrap;
-  padding: 0 2rem;
   flex-direction: column;
 }
 
@@ -35,17 +32,13 @@
 
 
 .main {
-  position:fixed;
-  padding:10px;
-  margin-top:3rem;
-  background-color: rgb(145, 145, 145);
-  /* height: 80vh; */
-  border-radius: 30px;
-  flex-grow:1;
-  min-width:150px;
-  max-width:300px;
-  text-shadow: 2px 2px 2px 2px black;
-  box-shadow: 2px 2px 2px 2px rgb(143, 143, 143);
+  width: 312px;
+  height: 920px;
+  flex-grow: 0;
+  padding: 0 0 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 0.5px #fff;
+  background-color: rgba(128, 128, 128, 0.6);
 }
 
 
@@ -58,59 +51,21 @@
   align-items: stretch;
 }
 
-.help{
-  position:absolute;
-  right:25px;
-  height: 24px;
-  margin-top:20px; 
-}
 
 .help.img{
-  position:absolute;
-  /* right: 100px; */
-  height: 24px;
-  /*margin-top:0%*/; 
+
+  right: 100px; 
+  height: 24px; 
 }
 
-.helptext{
-  visibility:hidden; 
-  width: 200px;
-  background-color: black;
-  position:absolute;
-  font-size:small;
 
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px ;
-  }
 
-  .help:hover .helptext {
-    visibility: visible;
-  }
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
 
 .titleColor {
   color: rgb(13, 97, 24);
 }
 
 .title {
-  font-family:'Montserrat';
   font-weight:600;
   margin-bottom : 10%;  
   margin-top: 8%;;

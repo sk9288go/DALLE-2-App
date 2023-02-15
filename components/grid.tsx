@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 
 
@@ -47,24 +47,4 @@ const Container = styled.div`
 `;
 const [results, setResults] = useState([]);
 
-const Grid: React.FC = () => {
-    return (
-        <Container>
-        {/* <div className= "grid">
-        { results.map((result) => {
-          return (
-            <div className= "card">
-              <img className= "imgpreview"
-                src= { result.url }
-                onClick= { () => download(result.url) }
-              />
-            </div>
-          )}
-        )} 
-        </div> */ }
-        </Container>
-      
-    );
-};
 
-export default Grid;

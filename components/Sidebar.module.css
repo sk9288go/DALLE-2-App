@@ -1,0 +1,23 @@
+
+.Container1 { margin-top: 10px; margin-left: 20px; width: 312px; height: 920px; flex-grow: 0;border-radius: 2%; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);background-color: #b2b2b2;}
+.Rectangle8{ width: 312px; height: 100px; margin: 0 0 26px; padding: 40px 18.3px 7.5px 17.8px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25); background-color: #dbdbdb; text-align: center;}
+.inside_box{justify-content:space-between; align-items:center;}
+
+
+.Browser {width: 96px;height: 29px;flex-grow: 0;font-family: Inter;font-size: 24px;font-stretch: normal;font-style: normal;line-height: 1.2;color: #1e1e1e;}
+.Textbox{width: '100%'; padding: '10px'}
+
+.inputPrompt{resize: none;width:100%; height: 180px; font-size: 17px; padding: 3px; margin: -2px 2px 12px 2px; border: 1px solid rgb(119, 119, 119); background-color: rgb(194, 194, 194); box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);  border-radius: 7px;}
+.selectNom{ width:100%; height: 42px; font-size: 17px; padding: 8px; margin: -2px 2px 12px 2px; border: 1px solid rgb(119, 119, 119); background-color: rgb(194, 194, 194); box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);  border-radius: 7px;}
+.input{width:100%; height: 42px; font-size: 17px; padding: 8px; margin: -2px 2px 12px 2px; border: 1px solid rgb(119, 119, 119); background-color: rgb(194, 194, 194); box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);  border-radius: 7px;}
+
+
+.help img {position:relative;margin-left: 250px; margin-bottom:6px; margin-top:-29px}
+.helptext{visibility:hidden; position:fixed; padding:20px;margin-left: 290px; margin-top:-17px;background-color: #d9d9d9; font-size: 14px;line-height: 1.5;letter-spacing: normal;text-align: left;color: #000; border:1px solid rgba(0, 0, 0, 0.2)}
+.help:hover .helptext {visibility: visible;}
+
+.button1 {width: 276px; height: 98px; align-items: center; margin:  18px 0;padding: 14px 40.3px 14px 43.1px; border-radius: 8px; border: solid 0.4px rgba(44, 44, 44, 0.5); background-color: #fff; font-size:large}
+
+.stylebutton {height: 40px;width: 60px;margin-left: 5px;margin-top: 10px;border: 0;border-radius: 21px;background-color: white;cursor: pointer; outline: none; font-weight: 100;}
+
+.node{ position:absolute; top:50%; left:55%;  transform:translate(-50%, -50%);}
